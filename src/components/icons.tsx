@@ -1,10 +1,11 @@
 import Image from "next/image";
-import img from "../../public/search.svg";
+import search from "../../public/search.svg";
+import { CiBookmark } from "react-icons/ci";
 
-export default function SearchIcon() {
-  return (
-    <div>
-      <Image width={24} height={24} src={img} alt="search" />
-    </div>
-  );
+export function SearchIcon() {
+  return <Image width={24} height={24} src={search} alt="search" />;
+}
+
+export function SaveIcon() {
+  return <><CiBookmark size={40} /></> ;
 }
