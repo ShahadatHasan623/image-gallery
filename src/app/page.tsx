@@ -10,7 +10,6 @@ export default function HomePage() {
         <Navbar />
         <Header />
         <Gallery></Gallery>
-        <h1 className="text-2xl text-green-500 font-bold">Home page</h1>
       </div>
     </main>
   );
